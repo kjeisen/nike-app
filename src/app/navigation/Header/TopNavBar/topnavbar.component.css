@@ -1,2 +1,12 @@
 
+  .dropdown:hover .dropdown-menu{
+    display:block;
+  }
 
+.font-helv{
+    font-size: 12px; font-family: Arial, Helvetica, sans-serif;
+
+}
+.height-20{
+    max-height: 20px;
+}
