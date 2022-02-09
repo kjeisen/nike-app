@@ -1,14 +1,12 @@
-
-  <div class="card">
-    <img src={{img}} class="card-img" alt="...">
+<div class="card">
+    <img src="assets/Images/derek-garlington.jpg" class="card-img" alt="...">
     <div class="card-img-overlay text-white">
-      <p class="card-text btm-left-above-btn ">{{descTop}}
+      <p class="card-text btm-left-above-btn">Men's Training
         <br>
-         {{descBottom}}</p>
+         Essentials</p>
       <p class="card-text btm-left">
         <button type="button" class="btn btn-secondary btn-sm btn-text">Shop</button>
       </p>
-     
     </div>
     
    

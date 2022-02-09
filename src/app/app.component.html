@@ -1,4 +1,8 @@
 <n-topnavbar>Loading...</n-topnavbar>
 <n-secnavbar>loading second</n-secnavbar>
 <n-carousel-nav>Loading</n-carousel-nav>
-<n-card-component>Loading card</n-card-component>
+<div class="card-deck" >
+<div *ngFor="let product of products">
+    <n-card-component img={{product.img}} descTop={{product.descTop}} descBottom={{product.descBottom}}>Loading card</n-card-component>
+</div>
+</div>
