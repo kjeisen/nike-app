@@ -1,0 +1,6 @@
+// Lab 3 \\
+// Main Features :
+Implemented programmactically adding components using the ngforloop
+Added the attributes of img, descriptionTop, descriptionBottom to all appropriate files
+Removed all inline styles, moved to appropriate css files
+\\
