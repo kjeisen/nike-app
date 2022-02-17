@@ -1,0 +1,32 @@
+.margin{
+    margin-bottom: 20px;
+}
+.margin-top{
+margin-top: 80px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.fill{
+    object-fit: fill;
+}
+.center{
+    text-align: center;
+    vertical-align:middle;
+    flex-direction: row;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.height-50{
+    height: 100px;
+}
+.center-vert{
+    vertical-align: middle;
+
+}
+.inline{
+    display:inline-block;
+    text-align: center;
+    list-style-type: disc;
+}
+.right{
+    text-align: right;
+}

@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand navbar-light bg-white">
+    <div class="container-fluid my-0 height-50 mx-2">
+
+        <div class="row container-fluid">
+            <div class="col-3 ">
+                <h2>New Releases</h2>
+            </div>
+            <div class="col-6 center">
+                <div class="row center">
+
+
+
+
+
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="row center">
+
+                    <div class="col-9 center right">Show Filters</div>
+                    <div class="col-3 center right">Sort By</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid d-flex">
+    <div class="row">
+        <div class="col-4" *ngFor="let product of products">
+
+            <n-card-component img={{product.img}} title={{product.title}} genre={{product.genre}}
+                numColors={{product.numColors}} price={{product.price}}></n-card-component>
+
+        </div>
+    </div>
+</div>

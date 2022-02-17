@@ -1,0 +1,115 @@
+.btn{
+    
+    color:  black;
+    size:200px;
+    background-color: white;
+     border-radius: 15px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-right: 20px;
+     padding-left: 20px;
+     outline-color: white;
+     border-color: white;
+}
+
+.no-margin{
+  margin:0;
+}
+.btn-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+}
+.btm-left{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.big-bold{
+    font-size: 72px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-stretch: ultra-condensed;
+    
+    
+}
+
+.btm-left-above-btn{
+    position: absolute;
+    bottom: 175px;
+    left: 50px;
+    margin-bottom: 35px;
+    max-width: 650px;
+
+    
+}
+.btm-left-above-btn-small{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    margin-bottom: 35px;
+    max-width: 550px;
+    font-size: 20px;
+}
+.card-img{
+   max-height: 100%;
+   max-width: 100%;
+   object-fit: fill;
+   
+}
+.card{
+    height:100%;
+    width:100%;
+    display: inline-block;
+
+    
+}
+.card-right{
+    right:0;
+}
+.card-deck{
+    padding-left:2.5%;
+    padding-right:2.5%;
+
+}
+.top-right{
+    position:absolute;
+    top: 75px;
+    right: 0 !important;
+    
+}
+.rotate-ninety{
+transform:rotate(90deg);
+}
+.black{
+    color: black;
+    font-size: 30px;
+    bottom: 75px;
+}
+
+.white-button{
+    color: black;
+    background-color: white;
+}
+.black-button{
+    color: white;
+    background-color: black;
+}
+.hidden-button{
+    size: 0px;
+    opacity: 0%;
+
+}
+.black-two-button{
+    color: white;
+    background-color: black;
+}
+.dual{
+    bottom: 150px;
+    color: black;
+    font-size: 30px;
+}
+.dual.small{
+    bottom: 100px;
+    color: black;
+    font-size: 20px;
+}

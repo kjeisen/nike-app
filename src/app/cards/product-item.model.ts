@@ -1,13 +1,16 @@
 
 export class ProductItemModel{
     img: string;
+    title:string;
+    genre:string;
+    numColors:string;
+    price:string;
     
-    descTop: string;
-    descBottom:string;
-    
-    constructor(img:string, descTop:string, descBottom:string){
+    constructor(img:string, title:string, genre:string,numColors:string,price:string){
         this.img = img;
-        this.descTop = descTop;
-        this.descBottom = descBottom;
+        this.title = title;
+        this.genre = genre;
+        this.numColors = numColors;
+        this.price = price;
     }
 }

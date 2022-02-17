@@ -9,11 +9,15 @@ import { Component, Input } from "@angular/core";
 export class CardComponenets{
 
     @Input() img:string;
-    @Input() descTop:string;
-    @Input() descBottom:string;
+    @Input() title:string;
+    @Input() genre:string;
+    @Input() numColors:string;
+    @Input() price:string;
     constructor(){
         this.img=""
-        this.descTop="";
-        this.descBottom="";
+        this.title="";
+        this.genre="";
+        this.numColors="";
+        this.price="";
     }
 }
