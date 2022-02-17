@@ -4,3 +4,10 @@ Implemented programmactically adding components using the ngforloop
 Added the attributes of img, descriptionTop, descriptionBottom to all appropriate files
 Removed all inline styles, moved to appropriate css files
 \\
+
+// Lab 4 2/17/22 \\ 
+// Main Features :
+Added Routing to Home Page, New Releases, Men, Women, and Kids*
+Added Components to each Route to match website*
+Used different layouts for each Route*
+Programmactically added cards to New Releases*
