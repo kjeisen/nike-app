@@ -11,3 +11,11 @@ Added Routing to Home Page, New Releases, Men, Women, and Kids*
 Added Components to each Route to match website*
 Used different layouts for each Route*
 Programmactically added cards to New Releases*
+\\
+
+// Lab 5 2/24/22 \\
+// Main Features :
+Six New Components*
+Home Layout: Footer, Sign In Modal, BannerCard;
+Men Layout : Men's Footer (Different from Home added with ngforloop), Sign Up Modal, Scrollable Cards (Using new Cards that were added with ngforloop)
+\\
