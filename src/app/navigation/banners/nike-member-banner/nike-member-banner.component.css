@@ -1,0 +1,33 @@
+.img{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+.black{
+    color:black;
+}
+.position{
+    position: absolute;
+  bottom: 120px;
+left: 10%;
+
+}
+.position-btn{
+    position: absolute;
+  bottom: 90px;
+left: 38%;
+
+}
+.btn{
+    
+    color:  white;
+    size:200px;
+    background-color: black;
+     border-radius: 15px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-right: 20px;
+     padding-left: 20px;
+     outline-color: black;
+     border-color: black;
+}

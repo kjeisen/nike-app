@@ -1,0 +1,41 @@
+.centered{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    object-fit: contain;
+}
+.top-right{
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+.big{
+    font-size: 30px;
+    vertical-align: middle;
+    text-align-last: center;
+}
+.size{
+    size-adjust: 50px;
+   
+}
+.grey{
+    color: gray;
+    font-size: medium;
+    overflow-wrap: break-word;
+    text-decoration: none;
+}
+.right{
+    position: absolute;
+    text-align: right;
+    text-decoration: none;
+    
+}
+.justify{
+    justify-content: center;
+    text-align: center;
+}
+.btn-modal{
+    background-color: black;
+    color: white;
+    min-width: 100%
+}

@@ -1,0 +1,31 @@
+div.scroll{
+    overflow-x: scroll;
+    overflow-y:hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+.sized{ 
+    
+    width: 500px;
+    display: inline;
+    min-width: auto;
+    min-height: auto;
+
+
+}
+.height{
+    height: 650px;
+}
+.title{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.genre{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

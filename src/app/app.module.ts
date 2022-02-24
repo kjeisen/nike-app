@@ -13,12 +13,19 @@ import { FullScreenCardComponent } from './cards/FullScreenCard/full-screen-card
 import { WomenLayoutComponent } from './Layouts/Women/women-layout.component';
 import { KidsLayoutComponent } from './Layouts/Kids/kids-layout.component';
 import { NewReleasesLayoutComponent } from './Layouts/NewReleases/new-releases-layout.component';
+import { FooterComponent } from './navigation/Footer/footer.component';
+import { NikeMemberBannerComponent } from './navigation/banners/nike-member-banner/nike-member-banner.component';
+import { SignInModalComponent } from './Modals/sign-in.component';
+import { MensUpperFooterComponent } from './navigation/Footer/men-upper-footer.component';
+import { ScrollCardsComponent } from './cards/ScrollCards/scroll-cards.component';
+import { SignUpComponent } from './Modals/sign-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
     SecNavBarComponent,
+    FooterComponent,
     CardComponenets,
     CarouselNavBar,
     MenLayoutComponent,
@@ -26,7 +33,13 @@ import { NewReleasesLayoutComponent } from './Layouts/NewReleases/new-releases-l
     FullScreenCardComponent,
     WomenLayoutComponent,
     KidsLayoutComponent,
-    NewReleasesLayoutComponent
+    NewReleasesLayoutComponent,
+    NikeMemberBannerComponent,
+    SignInModalComponent,
+    MensUpperFooterComponent,
+    ScrollCardsComponent,
+    SignUpComponent
+    
   ],
   imports: [
     BrowserModule,

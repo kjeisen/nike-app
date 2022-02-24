@@ -1,0 +1,26 @@
+.bold{
+    font-size: 15px;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text-gray{
+    color: grey;
+}
+.p-10{
+    padding-left: 12.5%;
+    padding-right: 12.5%
+}
+.text-long{
+    font-stretch: ultra-condensed;
+    
+}
+.content-right{
+    justify-items: right;
+}
+.icon:hover{
+    fill: rgb(255, 255, 255);
+}
+.unstyled{
+    font-style: none;
+    text-decoration: none;
+}
