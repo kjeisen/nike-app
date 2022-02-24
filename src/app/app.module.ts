@@ -19,7 +19,8 @@ import { SignInModalComponent } from './Modals/sign-in.component';
 import { MensUpperFooterComponent } from './navigation/Footer/men-upper-footer.component';
 import { ScrollCardsComponent } from './cards/ScrollCards/scroll-cards.component';
 import { SignUpComponent } from './Modals/sign-up.component';
-
+import {HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,12 +39,14 @@ import { SignUpComponent } from './Modals/sign-up.component';
     SignInModalComponent,
     MensUpperFooterComponent,
     ScrollCardsComponent,
-    SignUpComponent
+    SignUpComponent,
+    UserInfoComponent
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
