@@ -27,3 +27,11 @@ Populated it with basic info
 Created user info component to get info from backend server
 Displayed it on homepage
 \\
+
+// Lab 7 3/3/22 \\ 
+// Main Features: 
+Moved All products from new releases to the backend server
+Created a service to interact with the database and retrieve the data
+Deleted mock products in mock product list in cards
+Displayed on New Releases Page
+\\

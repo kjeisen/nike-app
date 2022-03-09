@@ -1,4 +1,4 @@
-import { Component, Input } from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
 
 @Component({
     selector: "n-card-component",
@@ -6,7 +6,7 @@ import { Component, Input } from "@angular/core";
     styleUrls: ["card.component.css"]
 })
 
-export class CardComponenets{
+export class CardComponent implements OnInit{
 
     @Input() img:string;
     @Input() title:string;
@@ -20,4 +20,8 @@ export class CardComponenets{
         this.numColors="";
         this.price="";
     }
+    ngOnInit(): void {
+       
+    }
+    
 }

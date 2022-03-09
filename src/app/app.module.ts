@@ -4,7 +4,7 @@ import { TopNavBarComponent } from './navigation/Header/TopNavBar/topnavbar.comp
 
 import { AppComponent } from './app.component';
 import { SecNavBarComponent } from './navigation/Header/SecondNavBar/secnavbar.component';
-import { CardComponenets } from './cards/HalfFullScreenCard/card.component';
+import { CardComponent } from './cards/HalfFullScreenCard/card.component';
 import { CarouselNavBar } from './navigation/CarouselNavBar/carousel-nav.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MenLayoutComponent } from './Layouts/Men/men-layout.component';
@@ -27,7 +27,7 @@ import { UserInfoComponent } from './user-info/user-info.component'
     TopNavBarComponent,
     SecNavBarComponent,
     FooterComponent,
-    CardComponenets,
+    CardComponent,
     CarouselNavBar,
     MenLayoutComponent,
     HomeLayoutComponent,
