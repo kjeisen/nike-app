@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { TopNavBarComponent } from './navigation/Header/TopNavBar/topnavbar.component';
-
+import { AngularFireModule } from '@angular/fire/compat';
 import { AppComponent } from './app.component';
 import { SecNavBarComponent } from './navigation/Header/SecondNavBar/secnavbar.component';
 import { CardComponent } from './cards/HalfFullScreenCard/card.component';
@@ -20,7 +20,11 @@ import { MensUpperFooterComponent } from './navigation/Footer/men-upper-footer.c
 import { ScrollCardsComponent } from './cards/ScrollCards/scroll-cards.component';
 import { SignUpComponent } from './Modals/sign-up.component';
 import {HttpClientModule } from '@angular/common/http';
-import { UserInfoComponent } from './user-info/user-info.component'
+import { UserInfoComponent } from './user-info/user-info.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import {AngularFirestoreModule } from '@angular/fire/compat/firestore';
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,7 +50,9 @@ import { UserInfoComponent } from './user-info/user-info.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
