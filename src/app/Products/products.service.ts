@@ -14,6 +14,6 @@ export class ProductService{
         return this.db.list<ProductItemModel>("products").valueChanges();
     }
     public getProduct(index:number){
-        
+        return this.db.list("products", ref => ref.orderByChild("price").startAt(index)).valueChanges();
     }
 }
