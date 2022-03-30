@@ -42,3 +42,9 @@ Deployed website using Firebase
 Implemented Angular Firebase
 Changed HTTP service to use the Angular Firebase methods
 \\
+
+// Lab 9 3/30/22 \\
+// Main Features:
+Added option to add Products to backend using admin page
+Access by changing path to /admin
+Adds to Firebase backend server
