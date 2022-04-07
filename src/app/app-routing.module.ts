@@ -7,6 +7,7 @@ import { WomenLayoutComponent } from './Layouts/Women/women-layout.component';
 import { KidsLayoutComponent } from './Layouts/Kids/kids-layout.component';
 import { NewReleasesLayoutComponent } from './Layouts/NewReleases/new-releases-layout.component';
 import { AdminComponent } from './admin/admin.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
   {
@@ -33,6 +34,10 @@ const routes:Routes = [
   {
     path:"admin",
     component: AdminComponent
+  },
+  {
+    path:"auth",
+    component: AuthenticationComponent
   }
 ];
 

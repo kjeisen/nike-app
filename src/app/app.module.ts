@@ -27,6 +27,7 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import {AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { FormsModule } from '@angular/forms';
 import { AdminComponent } from './admin/admin.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { AdminComponent } from './admin/admin.component';
     ScrollCardsComponent,
     SignUpComponent,
     UserInfoComponent,
-    AdminComponent
+    AdminComponent,
+    AuthenticationComponent
     
   ],
   imports: [
