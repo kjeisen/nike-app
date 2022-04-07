@@ -48,3 +48,7 @@ Changed HTTP service to use the Angular Firebase methods
 Added option to add Products to backend using admin page
 Access by changing path to /admin
 Adds to Firebase backend server
+// Lab 10 4/7/22 \\ 
+// Main Features: 
+Added a new authentication service and path that allows people to create an account
+\\
