@@ -1,6 +1,7 @@
 # NikeApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version
-[Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This was the first project that I created focused on creating and replicating nikes website look. 
+
+Angulars Framework was used as well as firebase to provide a backend.
 
 Created by Kolby Eisenhauer 
