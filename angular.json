@@ -113,5 +113,8 @@
       }
     }
   },
-  "defaultProject": "nike-app"
+  "defaultProject": "nike-app",
+  "cli": {
+    "analytics": false
+  }
 }
